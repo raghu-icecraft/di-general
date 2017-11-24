@@ -32,6 +32,7 @@ public class MyDIApplicationJUnitTest {
 	public void test() {
 		Consumer consumer = injector.getConsumer();
 		consumer.processMessages("Hi Pankaj", "pankaj@abc.com");
+		System.out.println("Entered new place");
 	}
 	
 	@After
